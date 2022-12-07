@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container{
+                border: 10px solid blueviolet;
+                padding: 10px;
+                width: 300px;
+                height: 500px;
+                
+                display: flex;
+                flex-direction:row;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                align-content: center;
+                align-self: flex-start;
+            }
+            .box{
+                padding: 25px;
+                border:5px solid red;
+                font-weight: bold;
+                margin: 5px;
+                background-color: aqua;
+                
+
+            }
+            .box:nth-child(1){
+                align-self: flex-start;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">A</div>
+            <div class="box">B</div>
+            <div class="box">C</div>
+            <div class="box">D</div>
+            <div class="box">E</div>
+
+        </div>
+    </body>
+</html>
